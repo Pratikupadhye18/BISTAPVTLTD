@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bista Pvt Ltd | Construction, Import-Export & Trading Solutions</title>
+<meta name="description" content="Bista Pvt Ltd — multi-vertical business house across Construction Services, Import & Export Trading, and Perishable & Non-Perishable Goods Trading. Reliable, transparent, on time.">
+<link rel="icon" type="image/png" href="images/logo-alt.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <span>📞 +91 90880 27179</span>
+      <span>📧 info@bistapvtltd.com</span>
+      <span>📍 Belghoria, Kolkata, West Bengal</span>
+      <span>🕐 Mon–Sat: 9 AM – 7 PM</span>
+    </div>
+    <div class="topbar-right">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="main-nav">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <div class="logo-icon">
+        <img src="images/logo-alt.png" alt="Bista Pvt Ltd Logo">
+      </div>
+      <div class="logo-text">
+        <strong>BISTA PVT LTD</strong>
+        <span>bistapvtltd.com</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="pages/about.html">About Us</a></li>
+      <li class="dropdown">
+        <a href="pages/services.html">Services ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="pages/services.html"><span class="dd-icon">📋</span> All Services</a></li>
+          <li><a href="pages/construction-services.html"><span class="dd-icon">🏗️</span> Construction Services</a></li>
+          <li><a href="pages/import-export-services.html"><span class="dd-icon">🌍</span> Import &amp; Export Services</a></li>
+          <li><a href="pages/perishable-goods-trading.html"><span class="dd-icon">🍇</span> Perishable Goods Trading</a></li>
+          <li><a href="pages/non-perishable-goods-trading.html"><span class="dd-icon">📦</span> Non-Perishable Goods Trading</a></li>
+        </ul>
+      </li>
+      <li><a href="pages/projects.html">Our Projects</a></li>
+      <li><a href="pages/director.html">Director's Desk</a></li>
+      <li><a href="pages/contact.html" class="nav-cta">Contact Us</a></li>
+    </ul>
+    <button class="mobile-toggle" onclick="toggleMobileMenu()"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- HERO SLIDER -->
+<section class="hero-slider" id="heroSlider">
+
+  <div class="hero-slide active" style="background-image:url('images/construction-hero.jpg');" data-tab="0">
+    <div class="hero-slide-content">
+      <div class="container">
+        <div class="hero-tag">🏢 Building Trust Since 2011</div>
+        <h1>Who We Are —<br><span>One Partner.</span> Zero Bottlenecks.</h1>
+        <p>Bista Pvt Ltd is a multi-vertical business house working across construction and global import-export trade — dealing in both perishable and non-perishable goods.</p>
+        <div class="hero-btns">
+          <a href="pages/about.html" class="btn btn-primary">Know More About Us →</a>
+          <a href="javascript:void(0)" onclick="openLeadForm('Homepage Hero')" class="btn btn-outline">Get a Free Consultation</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-slide" style="background-image:url('images/construction-hero.jpg');" data-tab="1">
+    <div class="hero-slide-content">
+      <div class="container">
+        <div class="hero-tag">🏗️ Construction Services</div>
+        <h1>Building Projects<br>You Can <span>Depend On.</span></h1>
+        <p>Residential, commercial &amp; industrial construction backed by verified material sourcing and hands-on project management from foundation to handover.</p>
+        <div class="hero-btns">
+          <a href="pages/construction-services.html" class="btn btn-primary">Explore Construction Services →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-slide" style="background-image:url('images/import-export-hero.jpg');" data-tab="2">
+    <div class="hero-slide-content">
+      <div class="container">
+        <div class="hero-tag">🌍 Import &amp; Export Services</div>
+        <h1>Global Trade,<br><span>Delivered Reliably.</span></h1>
+        <p>Seamless cross-border sourcing, compliance and logistics — connecting Indian quality with international markets, end to end.</p>
+        <div class="hero-btns">
+          <a href="pages/import-export-services.html" class="btn btn-primary">Explore Import &amp; Export Services →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-slide" style="background-image:url('images/perishable-hero.jpg');" data-tab="3">
+    <div class="hero-slide-content">
+      <div class="container">
+        <div class="hero-tag">🍇 Perishable Goods Trading</div>
+        <h1>Freshness, Preserved<br>from <span>Origin to Delivery.</span></h1>
+        <p>Cold-chain managed logistics that keep perishable goods fresh and on schedule — every shipment, every time.</p>
+        <div class="hero-btns">
+          <a href="pages/perishable-goods-trading.html" class="btn btn-primary">Explore Perishable Goods Trading →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-slide" style="background-image:url('images/nonperishable-hero.jpg');" data-tab="4">
+    <div class="hero-slide-content">
+      <div class="container">
+        <div class="hero-tag">📦 Non-Perishable Goods Trading</div>
+        <h1>Bulk Sourcing,<br>Built on <span>Quality.</span></h1>
+        <p>Dependable domestic &amp; international supply chains for non-perishable goods, backed by strict quality checks.</p>
+        <div class="hero-btns">
+          <a href="pages/non-perishable-goods-trading.html" class="btn btn-primary">Explore Non-Perishable Goods Trading →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-arrows">
+    <div class="hero-arrow prev">‹</div>
+    <div class="hero-arrow next">›</div>
+  </div>
+  <div class="hero-dots"></div>
+
+  <div class="hero-tabs">
+    <div class="hero-tab active" data-tab="0">Who We Are</div>
+    <div class="hero-tab" data-tab="1">🏗️ Construction</div>
+    <div class="hero-tab" data-tab="2">🌍 Import &amp; Export</div>
+    <div class="hero-tab" data-tab="3">🍇 Perishable Goods</div>
+    <div class="hero-tab" data-tab="4">📦 Non-Perishable Goods</div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="strip">
+  <div class="strip-inner">
+    <span>Construction Execution</span><span>Import &amp; Export Trade</span><span>Perishable Goods</span>
+    <span>Non-Perishable Goods</span><span>Cold-Chain Logistics</span><span>Verified Vendors</span>
+    <span>Customs &amp; Compliance</span><span>Transparent Pricing</span>
+    <span>Construction Execution</span><span>Import &amp; Export Trade</span><span>Perishable Goods</span>
+    <span>Non-Perishable Goods</span><span>Cold-Chain Logistics</span><span>Verified Vendors</span>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item"><div class="num">2011</div><div class="label">Founded In</div></div>
+      <div class="stat-item"><div class="num">4</div><div class="label">Core Business Verticals</div></div>
+      <div class="stat-item"><div class="num">100%</div><div class="label">Compliance &amp; Documentation Support</div></div>
+      <div class="stat-item"><div class="num">24 Hrs</div><div class="label">Average Enquiry Response</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- PAIN POINTS -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <div class="section-label">Sound Familiar?</div>
+      <h2 class="section-title">Building Trust. Delivering Goods. On Time, Every Time.</h2>
+      <p class="section-sub">Construction delays. Broken supply chains. Unreliable trade partners. We built Bista to fix exactly this.</p>
+    </div>
+    <div class="pain-grid">
+      <div class="pain-card">
+        <div class="pain-icon">🏗️</div>
+        <p>Construction projects stuck due to inconsistent material supply &amp; poor project accountability.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon">🚢</div>
+        <p>Import-export delays caused by compliance gaps, customs bottlenecks &amp; unreliable vendors.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon">🍎</div>
+        <p>Perishable goods lost in transit due to poor cold-chain handling.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon">📦</div>
+        <p>Non-perishable bulk orders with inconsistent quality &amp; unclear sourcing.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon">💸</div>
+        <p>Hidden costs &amp; zero price transparency in B2B deals.</p>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:36px;">
+      <a href="javascript:void(0)" onclick="openLeadForm('Pain Points CTA')" class="btn btn-primary">👉 Tired of Unreliable Partners? Talk to Bista Today</a>
+    </div>
+  </div>
+</section>
+
+<!-- HOW BISTA SOLVES IT -->
+<section class="section alt">
+  <div class="container">
+    <div class="section-head center">
+      <div class="section-label">How Bista Solves It</div>
+      <h2 class="section-title">One Partner. Zero Bottlenecks.</h2>
+      <p class="section-sub">Bista Pvt Ltd bridges the gap between construction execution and global trade, offering end-to-end reliability under one roof.</p>
+    </div>
+    <div class="solve-wrap">
+      <div class="solve-list">
+        <div class="solve-item"><div class="solve-check">✓</div><p>Verified vendor &amp; supplier network — quality guaranteed</p></div>
+        <div class="solve-item"><div class="solve-check">✓</div><p>Real-time tracking for construction + shipment milestones</p></div>
+        <div class="solve-item"><div class="solve-check">✓</div><p>Temperature-controlled logistics for perishables</p></div>
+        <div class="solve-item"><div class="solve-check">✓</div><p>Transparent pricing, zero hidden costs</p></div>
+        <div class="solve-item"><div class="solve-check">✓</div><p>Dedicated compliance &amp; documentation support for cross-border trade</p></div>
+        <div style="margin-top:10px;">
+          <a href="javascript:void(0)" onclick="openLeadForm('How We Solve It CTA')" class="btn btn-primary">👉 See How We Simplify Your Supply Chain</a>
+        </div>
+      </div>
+      <div class="solve-visual"></div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK PROCESS -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <div class="section-label">Our Work Process</div>
+      <h2 class="section-title">From Enquiry to Delivery — A Process Built on Trust</h2>
+    </div>
+    <div class="process-grid-6">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h4>Consultation</h4>
+        <p>Understand your requirement &amp; scope.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h4>Planning &amp; Sourcing</h4>
+        <p>Match the right materials/products &amp; vendors.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h4>Quality Check</h4>
+        <p>Rigorous inspection before dispatch.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h4>Documentation &amp; Compliance</h4>
+        <p>Hassle-free customs &amp; legal paperwork.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <h4>Logistics &amp; Execution</h4>
+        <p>On-ground project management / shipment tracking.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">6</div>
+        <h4>Delivery &amp; Support</h4>
+        <p>Timely delivery with after-service support.</p>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:40px;">
+      <a href="javascript:void(0)" onclick="openLeadForm('Process CTA')" class="btn btn-primary">👉 Ready to Start Your Project? Book a Free Consultation</a>
+    </div>
+  </div>
+</section>
+
+<!-- DIRECTOR'S DESK -->
+<section class="section alt">
+  <div class="container">
+    <div class="director-wrap">
+      <div class="director-photo"></div>
+      <div>
+        <div class="section-label" style="color:var(--orange);">From the Director's Desk</div>
+        <p class="director-quote">"At Bista, every brick laid and every container shipped carries our promise — reliability without compromise."</p>
+        <p class="director-sub">Since our founding in 2011, Bista Pvt Ltd has grown from a dedicated construction company into a diversified business house working across construction execution and global import-export trade of perishable and non-perishable goods — built on integrity and driven by delivery.</p>
+        <p class="director-names">— Mr. Biswajit Saha &amp; Mrs. Tanuja Chakraborty, Directors</p>
+        <a href="pages/director.html" class="btn btn-gold">Read Full Message →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES — PHOTO CARD GRID -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head center">
+      <div class="section-label">Our Services</div>
+      <h2 class="section-title">What We Do Best</h2>
+      <p class="section-sub">Four core verticals, one dependable partner. Explore each one below.</p>
+    </div>
+
+    <div class="service-photo-grid">
+      <a href="pages/construction-services.html" class="service-photo-card">
+        <div class="photo" style="background-image:url('images/construction-hero.jpg');"><span class="num">01</span></div>
+        <div class="body">
+          <h4>🏗️ Construction Services</h4>
+          <p>End-to-end project execution &amp; material supply for residential, commercial &amp; industrial builds.</p>
+          <span class="link">Explore Construction Services →</span>
+        </div>
+      </a>
+      <a href="pages/import-export-services.html" class="service-photo-card">
+        <div class="photo" style="background-image:url('images/import-export-hero.jpg');"><span class="num">02</span></div>
+        <div class="body">
+          <h4>🌍 Import &amp; Export Services</h4>
+          <p>Seamless global trade compliance &amp; logistics — sourcing to delivery, managed end-to-end.</p>
+          <span class="link">Explore Import &amp; Export Services →</span>
+        </div>
+      </a>
+      <a href="pages/perishable-goods-trading.html" class="service-photo-card">
+        <div class="photo" style="background-image:url('images/perishable-hero.jpg');"><span class="num">03</span></div>
+        <div class="body">
+          <h4>🍇 Perishable Goods Trading</h4>
+          <p>Cold-chain managed logistics that preserve freshness from origin to final delivery.</p>
+          <span class="link">Explore Perishable Goods Trading →</span>
+        </div>
+      </a>
+      <a href="pages/non-perishable-goods-trading.html" class="service-photo-card">
+        <div class="photo" style="background-image:url('images/nonperishable-hero.jpg');"><span class="num">04</span></div>
+        <div class="body">
+          <h4>📦 Non-Perishable Goods Trading</h4>
+          <p>Bulk sourcing with quality assurance for dependable domestic &amp; global supply chains.</p>
+          <span class="link">Explore Non-Perishable Goods Trading →</span>
+        </div>
+      </a>
+    </div>
+
+    <div style="text-align:center; margin-top:36px;">
+      <a href="pages/services.html" class="btn btn-gold">Explore All Services →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section alt">
+  <div class="container">
+    <div class="section-head center">
+      <div class="section-label">Common Questions</div>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">Our projects/shipments keep getting delayed — how is Bista different? <span class="faq-plus">+</span></div>
+        <div class="faq-a"><p>We track every milestone in real time, so delays are caught early, not after the damage is done.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">We've lost perishable stock in transit before — can you prevent that? <span class="faq-plus">+</span></div>
+        <div class="faq-a"><p>Yes, our cold-chain managed logistics keep freshness intact from pickup to delivery.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Customs &amp; documentation slow us down constantly — do you handle that? <span class="faq-plus">+</span></div>
+        <div class="faq-a"><p>Fully. Our team manages compliance &amp; paperwork end-to-end, so shipments don't get stuck.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">We've been burned by unreliable vendors before — how do you ensure quality? <span class="faq-plus">+</span></div>
+        <div class="faq-a"><p>Every supplier is pre-verified, and goods go through multi-stage inspection before dispatch.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Pricing is never transparent with other partners — what about Bista? <span class="faq-plus">+</span></div>
+        <div class="faq-a"><p>No hidden costs. You get clear, upfront pricing before work begins.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Can you handle both small orders and large bulk/project requirements? <span class="faq-plus">+</span></div>
+        <div class="faq-a"><p>Yes, we scale our team, sourcing, and logistics to match your order or project size.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">How do we know what's happening with our order/project at any given time? <span class="faq-plus">+</span></div>
+        <div class="faq-a"><p>You get visibility at every stage — sourcing, quality check, dispatch, and delivery.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">How can I get a quote or start working with Bista? <span class="faq-plus">+</span></div>
+        <div class="faq-a"><p>Fill the enquiry form or contact us directly — response within 24 hours.</p></div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:32px;">
+      <a href="javascript:void(0)" onclick="openLeadForm('FAQ CTA')" class="btn btn-primary">👉 Still Have Questions? Chat With Our Team</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA / CONTACT FOOTER -->
+<div class="cta-banner">
+  <div class="container">
+    <h2>Let's Build Something Reliable Together</h2>
+    <p>📞 +91 90880 27179 &nbsp;|&nbsp; 📍 60, Sarat Pally Rd, Sarat Pally, Beehive Garden, Belghoria, Kolkata, West Bengal 700056</p>
+    <div class="cta-btns">
+      <a href="javascript:void(0)" onclick="openLeadForm('Contact Footer CTA')" class="btn btn-gold">Place Your Enquiry Now →</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          <div class="logo-icon"><img src="images/logo-alt.png" alt="Bista Pvt Ltd Logo"></div>
+          <div class="logo-text"><strong>BISTA PVT LTD</strong><span>bistapvtltd.com</span></div>
+        </a>
+        <p>A multi-vertical business house working across Construction Services, Import &amp; Export Trading, and Perishable &amp; Non-Perishable Goods Trading. Building trust since 2011.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" title="Facebook" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M22 12.06C22 6.48 17.52 2 11.94 2S1.88 6.48 1.88 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.42V9.86c0-2.39 1.42-3.71 3.6-3.71 1.04 0 2.13.19 2.13.19v2.35h-1.2c-1.18 0-1.55.74-1.55 1.5v1.8h2.64l-.42 2.91h-2.22V22c4.78-.76 8.44-4.92 8.44-9.94z"/></svg></a>
+          <a href="#" class="social-link" title="Instagram" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2c2.72 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.16.55.55.9 1.11 1.16 1.77.25.64.42 1.37.47 2.43.05 1.06.06 1.4.06 4.12s-.01 3.06-.06 4.12c-.05 1.06-.22 1.79-.47 2.43-.26.66-.6 1.22-1.16 1.77-.55.55-1.11.9-1.77 1.16-.64.25-1.37.42-2.43.47-1.06.05-1.4.06-4.12.06s-3.06-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47-.66-.26-1.22-.6-1.77-1.16-.55-.55-.9-1.11-1.16-1.77-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.72 2 12s.01-3.06.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.16-1.77.55-.55 1.11-.9 1.77-1.16.64-.25 1.37-.42 2.43-.47C8.94 2.01 9.28 2 12 2zm0 1.8c-2.67 0-2.99.01-4.04.06-.87.04-1.34.18-1.66.31-.42.16-.71.36-1.02.67-.31.31-.51.6-.67 1.02-.13.32-.27.79-.31 1.66C4.25 8.71 4.24 9.03 4.24 12s.01 2.99.06 4.04c.04.87.18 1.34.31 1.66.16.42.36.71.67 1.02.31.31.6.51 1.02.67.32.13.79.27 1.66.31 1.05.05 1.37.06 4.04.06s2.99-.01 4.04-.06c.87-.04 1.34-.18 1.66-.31.42-.16.71-.36 1.02-.67.31-.31.51-.6.67-1.02.13-.32.27-.79.31-1.66.05-1.05.06-1.37.06-4.04s-.01-2.99-.06-4.04c-.04-.87-.18-1.34-.31-1.66-.16-.42-.36-.71-.67-1.02-.31-.31-.6-.51-1.02-.67-.32-.13-.79-.27-1.66-.31C14.99 3.81 14.67 3.8 12 3.8zm0 3.05a5.15 5.15 0 1 1 0 10.3 5.15 5.15 0 0 1 0-10.3zm0 1.8a3.35 3.35 0 1 0 0 6.7 3.35 3.35 0 0 0 0-6.7zm5.35-2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
+          <a href="#" class="social-link" title="LinkedIn" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M6.94 8.5H3.56V20h3.38V8.5zM5.25 3c-1.15 0-1.9.76-1.9 1.76 0 .98.73 1.76 1.87 1.76h.02c1.17 0 1.9-.78 1.9-1.76C7.12 3.76 6.4 3 5.25 3zM20.45 20h-3.38v-6.1c0-1.46-.52-2.46-1.83-2.46-1 0-1.6.67-1.86 1.32-.1.23-.12.55-.12.87V20H9.9s.04-10.53 0-11.5h3.38v1.63c.45-.7 1.25-1.7 3.04-1.7 2.22 0 3.88 1.45 3.88 4.56V20z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="pages/about.html">About Us</a>
+        <a href="pages/director.html">Director's Desk</a>
+        <a href="pages/projects.html">Our Projects</a>
+        <a href="pages/contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="pages/construction-services.html">Construction Services</a>
+        <a href="pages/import-export-services.html">Import &amp; Export Trading</a>
+        <a href="pages/perishable-goods-trading.html">Perishable Goods Trading</a>
+        <a href="pages/non-perishable-goods-trading.html">Non-Perishable Goods Trading</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>📞 +91 90880 27179</p>
+        <p>📍 60, Sarat Pally Rd, Sarat Pally,<br>Beehive Garden, Belghoria,<br>Kolkata, West Bengal 700056</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 <span class="brand">Bista Pvt Ltd</span>. All rights reserved.</span>
+      <span>Established 2011 · bistapvtltd.com</span>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING ACTION BUTTONS -->
+<div class="float-stack">
+  <a href="https://wa.me/919088027179" target="_blank" rel="noopener" class="float-btn wa" title="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.9 11.9L4 20l4.2-1.1a7.9 7.9 0 0 0 3.85 1h.01a7.94 7.94 0 0 0 5.54-13.58zm-5.55 12.2h-.01a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.5.66.67-2.44-.16-.25a6.58 6.58 0 0 1 10.24-8.16 6.5 6.5 0 0 1 1.94 4.65 6.6 6.6 0 0 1-6.58 6.6zm3.6-4.93c-.2-.1-1.17-.58-1.35-.64-.18-.07-.31-.1-.45.1-.13.19-.51.64-.62.78-.11.13-.23.15-.42.05-.2-.1-.83-.3-1.58-.97a5.9 5.9 0 0 1-1.1-1.35c-.11-.2 0-.3.09-.4.09-.1.2-.24.3-.36.1-.12.13-.2.2-.33.06-.13.03-.25-.02-.35-.05-.1-.45-1.07-.61-1.47-.16-.38-.33-.33-.45-.34h-.38c-.13 0-.35.05-.53.25s-.7.68-.7 1.65.72 1.92.82 2.05c.1.13 1.4 2.15 3.4 3.01.48.2.85.33 1.14.42.48.15.91.13 1.26.08.38-.06 1.17-.48 1.34-.94.16-.46.16-.86.11-.94-.05-.09-.18-.14-.38-.24z"/></svg>
+  </a>
+  <a href="tel:+919088027179" class="float-btn call" title="Call Bista Pvt Ltd">
+    <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.57 1 1 0 0 1-.25 1.02z"/></svg>
+  </a>
+</div>
+
+<!-- LEAD FORM MODAL -->
+<div class="modal-overlay" id="leadModal">
+  <div class="modal-box">
+    <span class="modal-close" onclick="closeLeadForm()">✕</span>
+    <h3>Place Your Enquiry</h3>
+    <p class="modal-sub">Fill this in and our team will respond within 24 hours.</p>
+    <form id="leadForm" onsubmit="submitLeadForm(event)">
+      <input type="hidden" id="leadSource" name="source">
+      <div class="form-group">
+        <label>Your Name *</label>
+        <input type="text" name="name" placeholder="Eg: Rajesh Kumar">
+      </div>
+      <div class="form-group">
+        <label>Phone Number *</label>
+        <input type="tel" name="phone" placeholder="+91 XXXXX XXXXX">
+      </div>
+      <div class="form-group">
+        <label>What Are You Looking For?</label>
+        <select name="service">
+          <option value="">Select a service</option>
+          <option>Construction Services</option>
+          <option>Import &amp; Export Services</option>
+          <option>Perishable Goods Trading</option>
+          <option>Non-Perishable Goods Trading</option>
+          <option>General Enquiry</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea name="message" placeholder="Tell us what you need..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Submit Enquiry →</button>
+    </form>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
